@@ -16,7 +16,7 @@ package gd.eggs.net.events
 
 		private var _data:Object;
 
-		public function ServerConnectorEvent(type:String, data:Object, bubbles:Boolean = false, cancelable:Boolean = false)
+		public function ServerConnectorEvent(type:String, data:Object = null, bubbles:Boolean = false, cancelable:Boolean = false)
 		{
 			super(type, bubbles, cancelable);
 		}
